@@ -47,7 +47,7 @@ export default function Header() {
             </a>
           </Button>
           <BookingModal>
-            <Button variant="default" className="bg-accent text-accent-foreground hover:bg-accent/90">
+            <Button>
               Book Online
             </Button>
           </BookingModal>

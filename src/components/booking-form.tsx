@@ -178,7 +178,7 @@ export function BookingForm() {
           ) : null}
         </div>
 
-        <Button type="submit" disabled={isPending} className="w-full bg-accent text-accent-foreground hover:bg-accent/90">
+        <Button type="submit" disabled={isPending} className="w-full">
           {isPending && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
           Request Booking
         </Button>

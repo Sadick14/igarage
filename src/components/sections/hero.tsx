@@ -45,7 +45,7 @@ export default function HeroSection() {
               </a>
             </Button>
             <BookingModal>
-              <Button size="lg" variant="default" className="bg-accent text-accent-foreground hover:bg-accent/90">
+              <Button size="lg" variant="default">
                 Book Online
               </Button>
             </BookingModal>
