@@ -1,35 +1,58 @@
-import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+
 import { services } from '@/lib/data';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
+import Image from 'next/image';
+
 
 export default function ServicesSection() {
   return (
-    <section id="services">
-      <div className="container px-4 md:px-6">
-        <div className="flex flex-col items-center justify-center space-y-4 text-center">
-          <div className="space-y-2">
-            <div className="inline-block rounded-lg bg-secondary px-3 py-1 text-sm text-secondary-foreground">Our Services</div>
-            <h2 className="text-3xl font-bold tracking-tighter text-primary sm:text-5xl font-headline">
-              Complete Car Care Under One Roof
-            </h2>
-            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              From routine maintenance to complex repairs, our certified mechanics are equipped to handle all your vehicle needs with precision and care.
-            </p>
-          </div>
+    <section id="services" className="py-24 md:py-36 bg-black">
+      <div className="container px-4 md:px-8">
+        <div className="flex flex-col items-center justify-center space-y-4 text-center mb-20">
+          <span className="text-red-600 font-bold tracking-widest text-xs md:text-sm uppercase">Our Services</span>
+          <h2 className="text-5xl md:text-6xl lg:text-7xl font-headline font-bold tracking-tight text-white">
+            Complete Car Care
+          </h2>
+          <div className="w-24 h-1 bg-red-600 rounded-full mt-2 mb-2" />
+          <p className="max-w-2xl text-lg md:text-xl text-gray-300 font-body">
+            From routine maintenance to complex repairs, our certified mechanics handle all your vehicle needs with precision and care.
+          </p>
         </div>
-        <div className="mx-auto grid grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          {services.map((service, index) => (
-            <Card key={index} className="flex flex-col items-center text-center p-6 transition-transform hover:scale-105 hover:shadow-lg">
-              <div className="mb-4 rounded-full bg-primary p-4 text-primary-foreground">
-                <service.icon className="h-8 w-8" />
+
+        <div className="mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl">
+          {services.map((service, index) => {
+            const image = PlaceHolderImages.find(img => img.id === service.imageId);
+            return (
+              <div
+                key={index}
+                className="group bg-neutral-900 border border-neutral-800 rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 flex flex-col h-full"
+              >
+                {image && (
+                  <div className="relative w-full h-56 md:h-64 overflow-hidden">
+                    <Image
+                      src={image.imageUrl}
+                      alt={image.description}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      data-ai-hint={image.imageHint}
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
+                  </div>
+                )}
+                <div className="flex-1 flex flex-col items-center text-center px-6 py-8">
+                  <div className="mb-4">
+                    <service.icon className="h-10 w-10 text-red-600" />
+                  </div>
+                  <h3 className="text-2xl font-headline font-bold text-white mb-2 tracking-wide">
+                    {service.title}
+                  </h3>
+                  <p className="text-base text-gray-400 font-body">
+                    {service.description}
+                  </p>
+                </div>
               </div>
-              <CardHeader className="p-0">
-                <CardTitle className="text-xl font-bold text-primary">{service.title}</CardTitle>
-              </CardHeader>
-              <CardDescription className="mt-2 text-sm">
-                {service.description}
-              </CardDescription>
-            </Card>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

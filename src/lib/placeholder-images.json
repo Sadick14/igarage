@@ -5,6 +5,102 @@
       "description": "Mechanics working in a clean and modern auto repair workshop",
       "imageUrl": "https://images.unsplash.com/photo-1630512496809-6caa315ab1f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtZWNoYW5pYyUyMHdvcmtzaG9wfGVufDB8fHx8MTc2NjY3OTYwMnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "mechanic workshop"
+    },
+    {
+      "id": "hero-wheel",
+      "description": "Close-up of a shiny car wheel with reflections",
+      "imageUrl": "https://images.unsplash.com/photo-1542367597-34d4b6f1b0d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200",
+      "imageHint": "car wheel close-up"
+    },
+    {
+      "id": "hero-bmw",
+      "description": "Luxury BMW car with dramatic lighting and reflections",
+      "imageUrl": "https://images.unsplash.com/photo-1555215695-3004980ad54e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1400",
+      "imageHint": "BMW luxury car"
+    },
+    {
+      "id": "service-maintenance",
+      "description": "Professional mechanic performing routine car maintenance",
+      "imageUrl": "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+      "imageHint": "car maintenance"
+    },
+    {
+      "id": "service-engine-diagnostics",
+      "description": "Mechanic using diagnostic tools on car engine",
+      "imageUrl": "https://images.unsplash.com/photo-1625047509168-a7026f36de04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+      "imageHint": "engine diagnostics"
+    },
+    {
+      "id": "service-oil-change",
+      "description": "Oil change service being performed",
+      "imageUrl": "https://images.unsplash.com/photo-1615906655593-ad0386982a0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+      "imageHint": "oil change"
+    },
+    {
+      "id": "service-tire",
+      "description": "Mechanic working on car tires and wheels",
+      "imageUrl": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+      "imageHint": "tire service"
+    },
+    {
+      "id": "service-battery",
+      "description": "Car battery replacement and testing",
+      "imageUrl": "https://images.unsplash.com/photo-1609123844732-b62db040f9b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+      "imageHint": "battery replacement"
+    },
+    {
+      "id": "service-brake",
+      "description": "Brake system inspection and repair",
+      "imageUrl": "https://images.unsplash.com/photo-1625047510484-43aa9712a75e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+      "imageHint": "brake repair"
+    },
+    {
+      "id": "service-general",
+      "description": "Comprehensive vehicle servicing",
+      "imageUrl": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+      "imageHint": "general servicing"
+    },
+    {
+      "id": "about-workshop",
+      "description": "Modern auto repair workshop with professional equipment",
+      "imageUrl": "https://images.unsplash.com/photo-1632823471565-1ecdf90ba3e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+      "imageHint": "workshop interior"
+    },
+    {
+      "id": "about-team",
+      "description": "Professional mechanics team working together",
+      "imageUrl": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+      "imageHint": "mechanic team"
+    },
+    {
+      "id": "why-professionalism",
+      "description": "Certified professional mechanic at work",
+      "imageUrl": "https://images.unsplash.com/photo-1632823471565-1ecdf90ba3e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
+      "imageHint": "professional mechanic"
+    },
+    {
+      "id": "why-efficiency",
+      "description": "Fast and efficient auto repair service",
+      "imageUrl": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
+      "imageHint": "efficient service"
+    },
+    {
+      "id": "why-value",
+      "description": "Quality service at affordable prices",
+      "imageUrl": "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
+      "imageHint": "value pricing"
+    },
+    {
+      "id": "why-modern",
+      "description": "Modern diagnostic tools and technology",
+      "imageUrl": "https://images.unsplash.com/photo-1625047509168-a7026f36de04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
+      "imageHint": "modern technology"
+    },
+    {
+      "id": "why-guarantee",
+      "description": "Quality guarantee and customer satisfaction",
+      "imageUrl": "https://images.unsplash.com/photo-1614607242094-b1b2369949ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
+      "imageHint": "quality guarantee"
     }
   ]
 }

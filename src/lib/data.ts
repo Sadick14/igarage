@@ -7,36 +7,43 @@ export const services = [
     icon: Wrench,
     title: 'Car Maintenance',
     description: 'Stay ahead of problems with regular inspections, fluid checks, and tune-ups to keep your car running smoothly.',
+    imageId: 'service-maintenance',
   },
   {
     icon: Activity,
     title: 'Engine Diagnostics',
     description: 'We use advanced diagnostic tools to accurately identify and resolve any engine issues, from check engine lights to performance problems.',
+    imageId: 'service-engine-diagnostics',
   },
   {
     icon: Droplets,
     title: 'Oil & Lubrication',
     description: 'Essential for engine health, our scheduled oil changes use premium oils to ensure optimal performance and longevity.',
+    imageId: 'service-oil-change',
   },
   {
     icon: TireIcon,
     title: 'Tire Services',
     description: 'Complete tire care including alignment, balancing, rotation, and puncture repairs to ensure your safety and extend tire life.',
+    imageId: 'service-tire',
   },
   {
     icon: BatteryCharging,
     title: 'Battery Replacement',
     description: 'We offer comprehensive battery testing and quick, reliable replacement services to ensure you\'re never left stranded.',
+    imageId: 'service-battery',
   },
   {
     icon: BrakeDiscIcon,
     title: 'Brake Repair',
     description: 'Your safety is our priority. Our professional brake inspections and repairs ensure your vehicle stops safely and reliably.',
+    imageId: 'service-brake',
   },
   {
     icon: Car,
     title: 'General Servicing',
     description: 'Comprehensive care for all makes and models, covering all aspects of your vehicle to keep it in peak condition.',
+    imageId: 'service-general',
   },
 ];
 
@@ -45,26 +52,31 @@ export const whyChooseUs = [
         icon: Users,
         title: 'Professionalism',
         description: 'Our team consists of skilled and experienced mechanics dedicated to providing top-quality service for every vehicle type.',
+        imageId: 'why-professionalism',
     },
     {
         icon: Zap,
         title: 'Efficiency',
         description: 'We deliver quick and reliable work without compromising on quality, getting you back on the road faster.',
+        imageId: 'why-efficiency',
     },
     {
         icon: Gem,
         title: 'Value',
         description: 'Receive premium auto repair services at affordable, budget-friendly rates that don\'t break the bank.',
+        imageId: 'why-value',
     },
     {
         icon: Laptop,
         title: 'Modernity',
         description: 'We utilize the latest diagnostic tools and repair technology to ensure precise and effective repairs every time.',
+        imageId: 'why-modern',
     },
     {
         icon: ShieldCheck,
         title: 'Guarantee',
         description: 'Your satisfaction is our promise. We stand behind our work with a commitment to quality and customer care.',
+        imageId: 'why-guarantee',
     },
 ];
 
